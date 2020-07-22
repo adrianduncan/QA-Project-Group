@@ -16,10 +16,14 @@ html {
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
-
+/* Reusable Components */
 .row {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
 }
 
 /* Header css */
