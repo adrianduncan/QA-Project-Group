@@ -16,6 +16,16 @@ html {
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /* Reusable Components */
 .row {
     max-width: 1140px;
@@ -48,7 +58,7 @@ header {
 
 .logo {
     position: absolute;
-    height: 80px;
+    height: 100px;
     width: auto;
     float: left;
     left: 70px;
@@ -224,17 +234,19 @@ h2:after {
 }
 
 /* How it Works CSS */
-.steps-box {
-    margin-top: 30px;
+.section-steps {
+    background-color: rgb(241, 241, 241);
 }
 
 .steps-box:first-child {
   text-align: right;
   padding-right: 3%;
+  margin-top: 30px;
 }
 
 .steps-box:last-child {
     padding-left: 3%;
+    margin-top: 70px;
 }
 
 .app-screen {
@@ -243,8 +255,29 @@ h2:after {
 
 .works-step {
     margin-bottom: 50px;
+    padding-top: 40px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 30px;
 }
 
 .works-step div {
     color: #84a813;
+    border: 2px solid #84a813;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    font-size: 150%;
+    float: left;
+    margin-right: 25px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
 }
