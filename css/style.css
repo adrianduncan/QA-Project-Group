@@ -276,8 +276,8 @@ h2:after {
     text-align: center;
     padding: 5px;
     font-size: 150%;
-    float: left;
     margin-right: 25px;
+    float: left;
 }
 
 .btn-app img {
