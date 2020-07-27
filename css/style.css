@@ -251,10 +251,12 @@ h2:after {
 }
 
 .app-screen {
-    margin-left: -30%;
-    margin-top: 10px;
+    margin-left: 30%;
+    margin-top: 5px;
     margin-bottom: 0;
     padding-bottom: 0;
+    height: 500px;
+    width: auto;
 }
 
 .works-step {
