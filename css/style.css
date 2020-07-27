@@ -236,6 +236,7 @@ h2:after {
 /* How it Works CSS */
 .section-steps {
     background-color: rgb(241, 241, 241);
+    height: 737px;
 }
 
 .steps-box:first-child {
@@ -251,7 +252,7 @@ h2:after {
 
 .app-screen {
     margin-left: -30%;
-    margin-top: 10%;
+    margin-top: 10px;
     margin-bottom: 0;
     padding-bottom: 0;
 }
