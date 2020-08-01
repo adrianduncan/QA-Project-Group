@@ -188,7 +188,8 @@ a:active {
 
 /* BUTTONS */
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 30px;
@@ -200,30 +201,36 @@ a:active {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     background-color: #84a813;
     border: 1px solid #84a813;
     color: #fff;
     margin-right: 15px;
+    cursor: pointer;
 }
 
 .btn-ghost:link,
 .btn-link:visited {
     border: 1px solid #6d8b0b;
+    color: #84a813;
 }
 
 .btn:hover,
-.btn:active {
-    background-color: #84a813;
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #6d8b0b;
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type=submit] {
     border: 1px solid #84a813;
 }
 
-.btn-ghost:link,
-.btn-link:visited {
+.btn-ghost:hover,
+.btn-link:active {
     border: 1px solid #84a813;
     color: #fff;
 }
@@ -387,3 +394,31 @@ a:active {
     padding: 5px 0;
 }
 
+/* We're Happy To Hear From You CSS */
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #84a813;
+}
+
+textarea {
+    height: 100px;
+}
+
+*:focus {
+    outline: none;
+}
+
+label {
+    font-size: 150%;
+    font-weight: 500;
+}
