@@ -8,13 +8,15 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: rgb(78, 78, 78);
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {zoom: 1}
@@ -51,7 +53,7 @@ header {
 .hero-text-box {
     position: absolute;
     width: 1140px;
-    top: 40%;
+    top: 50%;
     left: 40%;
     transform: translate(-50%, -50%);
 }
@@ -503,4 +505,3 @@ footer p {
 .ins:hover {
     color: #dd2a7b;
 }
-
