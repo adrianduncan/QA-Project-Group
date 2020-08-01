@@ -333,3 +333,57 @@ a:active {
 .city-feature {
     margin-bottom: 5px;
 }
+
+/* Start Eating Healthy CSS */
+.section-plans {
+    background-color: #f4f4f4; 
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 5px 7px rgb(203, 203, 203);
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: none;
+}
+
+.plan-box div:first-child {
+    background-color: rgb(213, 236, 215);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #84a813;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
