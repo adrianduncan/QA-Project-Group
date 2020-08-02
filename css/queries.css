@@ -22,49 +22,62 @@
     body {
         font-size: 18px;
     }
+
     section {
         padding: 60px 0;
     }
+
     .long-copy {
         width: 80%;
         margin-left: 10%;
     }
+
     .logo {
         left: 30px;
     }
+
     .main-nav li {
         margin-top: 60px;
         right: 25px;
     }
+
     .works-step {
         margin-bottom: 40px;
         width: 100%;
     }
+
     .works-step:last-of-type {
         margin-bottom: 80px;
     }
+
     .btn-app img {
         height: 45px;
         width: auto;
     }
+
     .icon-small {
         width: 17px;
         margin-right: 5px;
     }
+
     .city-feature {
         font-size: 85%;
     }
+
     .plan-box {
         width: 100%;
         margin-left: 0%;
         font-size: 80%;
     }
+
     .contact-form {
         width: 80%;
     }
+
     .footer-nav li a {
         padding-left: 10px;
     }
+
     .btn-app img {
         height: 45px;
         width: auto;
@@ -78,27 +91,34 @@
     body {
         font-size: 16px;
     }
+
     section {
         padding: 38px 0;
     }
+
     .row,
     .hero-text-box {
         padding: 0 4%;
     }
+
     .col {
         width: 100%;
         margin: 0 0 4% 0;
     }
+
     .main-nav {
         display: none;
     }
+
     .long-copy {
         width: 100%;
         margin-left: 4%;
     }
+
     h1 {
         font-size: 180%;
     }
+
     h2 {
         font-size: 150%;
     }
@@ -106,13 +126,13 @@
     .steps-box:first-child {
         text-align: center;
         margin-top: 0px;
-      }
+    }
 
-      .steps-box:last-child {
+    .steps-box:last-child {
         text-align: center;
         margin-top: 20px;
         width: 100%;
-      }
+    }
 
     .works-step div {
         border: 2px solid #84a813;
@@ -124,32 +144,39 @@
         padding-bottom: 20px;
         font-size: 120%;
     }
+
     .works-step p {
         padding-top: 5px;
         text-align: left;
     }
+
     .works-step {
         margin-bottom: -5px;
         width: 100%;
         padding-bottom: 0px;
         padding-top: 40px;
     }
+
     .works-step:last-of-type {
         margin-bottom: 12px;
     }
+
     .app-screen {
         width: 50%;
         height: auto;
     }
+
     .btn-app img {
         height: 35px;
         width: auto;
         margin-bottom: 15px;
     }
+
     .social-links {
         padding-top: 30px;
         float: left;
     }
+
     label {
         font-size: 85%;
     }
@@ -160,9 +187,11 @@
     section {
         padding: 25px 0;
     }
+
     .contact-form {
         width: 100%;
     }
+
     .footer-nav {
         font-size: 80%;
     }
