@@ -15,6 +15,7 @@
         padding: 0%;
     }
 
+
 }
 
 /* Small Tablet iPad from 768px to 1023px */
@@ -39,6 +40,42 @@
     .main-nav li {
         margin-top: 60px;
         right: 25px;
+        display: block;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+        color: #fff;
+    }
+
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+        display: none;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 110%;
+        margin: 0 50px;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0;
+        background-color: #fff;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 2px solid #84a813;
+        border-radius: 5px;
+    }
+
+    .sticky .mobile-nav-icon {
+        color: #555;
     }
 
     .works-step {
@@ -109,6 +146,25 @@
     .main-nav {
         display: none;
     }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .main-nav {
+        float: left;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+    }
+
 
     .long-copy {
         width: 100%;
