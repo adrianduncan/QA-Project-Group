@@ -10,6 +10,11 @@
         padding: 0 2%;
     }
 
+    .steps-box:first-child {
+        margin: 0;
+        padding: 0%;
+    }
+
 }
 
 /* Small Tablet iPad from 768px to 1023px */
@@ -31,23 +36,12 @@
         margin-top: 60px;
         right: 25px;
     }
-    .steps-box {
-        margin-top: 10px;
-    }
-    .steps-box:last-child {
-        margin-top: 10px;
-    }
     .works-step {
         margin-bottom: 40px;
         width: 100%;
     }
     .works-step:last-of-type {
         margin-bottom: 80px;
-    }
-    .app-screen {
-        width: 80%;
-        height: auto;
-        margin-left: 30px;
     }
     .btn-app img {
         height: 45px;
@@ -71,6 +65,12 @@
     .footer-nav li a {
         padding-left: 10px;
     }
+    .btn-app img {
+        height: 45px;
+        width: auto;
+        margin-bottom: 15px;
+    }
+
 }
 
 /* Small Phones to Small Tablets from 481px to 767px */
@@ -87,11 +87,83 @@
     }
     .col {
         width: 100%;
+        margin: 0 0 4% 0;
     }
     .main-nav {
         display: none;
     }
+    .long-copy {
+        width: 100%;
+        margin-left: 4%;
+    }
+    h1 {
+        font-size: 180%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+
+    .steps-box:first-child {
+        text-align: center;
+        margin-top: 0px;
+      }
+
+      .steps-box:last-child {
+        text-align: center;
+        margin-top: 20px;
+        width: 100%;
+      }
+
+    .works-step div {
+        border: 2px solid #84a813;
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        float: left;
+        margin-bottom: 31px;
+        padding-bottom: 20px;
+        font-size: 120%;
+    }
+    .works-step p {
+        padding-top: 5px;
+        text-align: left;
+    }
+    .works-step {
+        margin-bottom: -5px;
+        width: 100%;
+        padding-bottom: 0px;
+        padding-top: 40px;
+    }
+    .works-step:last-of-type {
+        margin-bottom: 12px;
+    }
+    .app-screen {
+        width: 50%;
+        height: auto;
+    }
+    .btn-app img {
+        height: 35px;
+        width: auto;
+        margin-bottom: 15px;
+    }
+    .social-links {
+        padding-top: 30px;
+        float: left;
+    }
+    label {
+        font-size: 85%;
+    }
 }
 
-/* Small Phones fro 0 to 480px */
-@media only screen and (max-width: 480px) {}
+/* Small Phones from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 25px 0;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .footer-nav {
+        font-size: 80%;
+    }
+}
