@@ -24,10 +24,10 @@
                 <img src="images/grubhub_logo.svg" alt="GrubHub logo" class="logo">
                 <ul class="main-nav">
                     <li style="list-style: none;">
-                        <a href="#">Food Delivery</a>
-                        <a href="#">How it Works</a>
-                        <a href="#">Our Cities</a>
-                        <a href="#">Sign Up</a>
+                        <a href="#features">Food Delivery</a>
+                        <a href="#works">How it Works</a>
+                        <a href="#cities">Our Cities</a>
+                        <a href="#plans">Sign Up</a>
                     </li>
                 </ul>
             </div>
@@ -36,17 +36,17 @@
             <h1>We are <strong>GrubHub</strong>.</h1>
             <h1>Goodbye junk food!</h1>
             <h1>Hello super healthy meals!</h1>
-            <a class="btn btn-full" href="#">
+            <a class="btn btn-full js--scroll-to-plans" href="#">
                 I’m hungry
             </a>
-            <a class="btn btn-ghost" href="#">
+            <a class="btn btn-ghost js--scroll-to-start" href="#">
                 Show me more!
             </a>
         </div>
     </header>
 
     <!-- FEATURES SECTION -->
-    <section class="section-features js--section-features">
+    <section class="section-features js--section-features" id="features">
         <div class="row">
             <h2>Get food fast &mdash; not fast food</h2>
             <p class="long-copy">
@@ -89,7 +89,7 @@
     </section>
 
     <!-- MEALS SECTION -->
-    <section class="section-meals">
+    <section class="section-meals js--section-meals">
         <ul class="meals-showcase clearfix">
             <li>
                 <figure class="meal-photo">
@@ -137,7 +137,7 @@
     </section>
 
     <!-- HOW IT WORKS SECTION -->
-    <section class="section-steps">
+    <section class="section-steps" id="works">
         <div class="row">
             <h2>How It Works &mdash; Simple as 1, 2, 3</h2>
         </div>
@@ -166,7 +166,7 @@
     </section>
 
     <!-- CITIES SECTION -->
-    <section class="section-cities">
+    <section class="section-cities" id="cities">
         <div class="row">
             <h2>We're currently in these cities</h2>
         </div>
@@ -240,7 +240,7 @@
     </section>
 
     <!-- START EATING HEALTHY SECTION -->
-    <section class="section-plans">
+    <section class="section-plans js--section-plans" id="plans">
         <div class="row">
             <h2>Start Eating Healthy Today</h2>
         </div>
@@ -308,12 +308,12 @@
                     <div>
                         <h3>Starter</h3>
                         <p class="plan-price">$19 <span> / meal</span></p>
-                       
+
                     </div>
                     <div>
                         <ul>
                             <li>
-                                <ion-icon name="checkmark-outline"></ion-icon>1 meal 
+                                <ion-icon name="checkmark-outline"></ion-icon>1 meal
                             </li>
                             <li>
                                 <ion-icon name="checkmark-outline"></ion-icon>Order from 8am to 12pm
@@ -379,21 +379,29 @@
     <footer>
         <div class="row">
             <div class="col span-1-of-2">
-               <ul class="footer-nav">
-                   <li>
-                       <a href="#">About us</a>
-                       <a href="#">Blog</a>
-                       <a href="#">iOS App</a>
-                       <a href="#">Android App</a>
-                   </li>
-               </ul>
+                <ul class="footer-nav">
+                    <li>
+                        <a href="#">About us</a>
+                        <a href="#">Blog</a>
+                        <a href="#">iOS App</a>
+                        <a href="#">Android App</a>
+                    </li>
+                </ul>
             </div>
             <div class="col span-1-of-2">
                 <ul class="social-links">
-                    <li><a href="#"><ion-icon name="logo-twitter" class="twit"></ion-icon></a></li>
-                    <li><a href="#"><ion-icon name="logo-facebook" class="face"></ion-icon></a></li>
-                    <li><a href="#"><ion-icon name="logo-youtube" class="you"></ion-icon></a></li>
-                    <li><a href="#"><ion-icon name="logo-instagram" class="ins"></ion-icon></a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-twitter" class="twit"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-facebook" class="face"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-youtube" class="you"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-instagram" class="ins"></ion-icon>
+                        </a></li>
                 </ul>
             </div>
         </div>
@@ -404,7 +412,7 @@
         </div>
     </footer>
 
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
