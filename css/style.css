@@ -194,11 +194,12 @@ h2:after {
 
 /* Icons */
 .icon-big {
-    font-size: 250%;
+    font-size: 350%;
     display: block;
     color: #84a813;
     margin-bottom: 20px;
     margin-top: 30px;
+    padding-left: 25%;
 }
 
 .icon-small {
@@ -237,7 +238,7 @@ a:active {
 .btn:visited,
 input[type=submit] {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
@@ -377,7 +378,8 @@ input[type=submit] {
 .btn-app img {
     height: 50px;
     width: auto;
-    margin-right: 10px;
+    padding-left: 78px;
+    margin-right: -50px;
 }
 
 /* Cities CSS */
@@ -471,7 +473,7 @@ textarea {
 }
 
 label {
-    font-size: 150%;
+    font-size: 130%;
     font-weight: 500;
 }
 

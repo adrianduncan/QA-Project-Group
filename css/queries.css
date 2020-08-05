@@ -97,6 +97,10 @@
         margin-right: 5px;
     }
 
+    .icon-big {
+        padding: 0;
+    }
+
     .city-feature {
         font-size: 85%;
     }
@@ -119,6 +123,9 @@
         height: 45px;
         width: auto;
         margin-bottom: 15px;
+        padding-left: 0px;
+        margin-right: 45px;
+        padding-right: 0%;
     }
 
 }
@@ -177,6 +184,10 @@
 
     h2 {
         font-size: 150%;
+    }
+
+    h3 {
+        font-size: 130%;
     }
 
     .steps-box:first-child {
