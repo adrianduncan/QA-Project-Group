@@ -94,5 +94,35 @@ $(document).ready(function () {
 
     });
 
+    $(window).on("resize orientationchange", function () {
+
+        // Get window width
+        var width = $(window).width();
+        // if large than ipad
+        var nav = $('.js--main-nav');
+
+        // if past new breakout on resize
+        if (width > 1023) {
+
+            // save any display state
+            let currentNavDisplay = $('.js--main-nav').css('display');
+
+            //If nav is hidden, show it
+            if (currentNavDisplay == 'none') {
+                nav.show();
+            }
+
+
+        } else {
+            //create if statement to check if button open the nav, or 
+            nav.hide();
+        }
+
+        // Update the code for navigation to show regardless of class/css
+        console.log(width);
+
+
+    });
+
 
 });
