@@ -224,9 +224,9 @@
 
     .sticky .main-nav li a:visited {
 
-        padding: 10px 0;
+        padding: 7px 10px;
 
-        color: #fff;
+        color: #000;
 
     }
 
@@ -339,5 +339,16 @@
 
     .footer-nav {
         font-size: 80%;
+    }
+
+    .main-nav li a:link, .main-nav li a:visited {
+        background-color: #84a813;
+        padding: 10px;
+        border: 1px solid #fff;
+
+    }
+
+    .main-nav li {
+        z-index: 100;
     }
 }
