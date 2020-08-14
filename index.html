@@ -1,421 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
     <link rel="stylesheet" href="vendors/css/animate.css" />
-    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/queries.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
-        rel="stylesheet">
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/queries.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
 
     <title>GrubHub Delivery</title>
 
-    <link rel="shortcut icon" href="favicons/grubhub-fav.png">
+    <link rel="shortcut icon" href="favicons/grubhub-fav.png" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- HEADER SECTION -->
     <header>
-        <nav>
-            <div class="row">
-                <img src="images/grubhub_logo.svg" alt="GrubHub logo" class="logo">
-                <ul class="main-nav js--main-nav">
-                    <li style="list-style: none;">
-                        <a href="#features">Food Delivery</a>
-                        <a href="#works">How it Works</a>
-                        <a href="#cities">Our Cities</a>
-                        <a href="#plans">Sign Up</a>
-                    </li>
-                </ul>
-                <a class="mobile-nav-icon js--nav-icon">
-                    <ion-icon name="menu-outline"></ion-icon>
-                </a>
-            </div>
-        </nav>
-        <div class="hero-text-box">
-            <h1>We are <strong>GrubHub</strong>.</h1>
-            <h1>Goodbye junk food!</h1>
-            <h1>Hello super healthy meals!</h1>
-            <a class="btn btn-full js--scroll-to-plans" href="#">
-                I’m hungry
-            </a>
-            <a class="btn btn-ghost js--scroll-to-start" href="#">
-                Show me more!
-            </a>
+      <nav>
+        <div class="row">
+          <img src="images/grubhub_logo.svg" alt="GrubHub logo" class="logo" />
+          <ul class="main-nav js--main-nav">
+            <li style="list-style: none;">
+              <a href="#features">Food Delivery</a>
+              <a href="#works">How it Works</a>
+              <a href="#cities">Our Cities</a>
+              <a href="#plans">Sign Up</a>
+            </li>
+          </ul>
+          <a class="mobile-nav-icon js--nav-icon">
+            <ion-icon name="menu-outline"></ion-icon>
+          </a>
         </div>
+      </nav>
+      <div class="hero-text-box">
+        <h1>We are <strong>GrubHub</strong>.</h1>
+        <h1>Goodbye junk food!</h1>
+        <h1>Hello super healthy meals!</h1>
+        <a class="btn btn-full js--scroll-to-plans" href="#">
+          I’m hungry
+        </a>
+        <a class="btn btn-ghost js--scroll-to-start" href="#">
+          Show me more!
+        </a>
+      </div>
     </header>
 
     <!-- FEATURES SECTION -->
     <section class="section-features js--section-features" id="features">
-        <div class="row">
-            <h2>Get food fast &mdash; not fast food</h2>
-            <p class="long-copy">
-                Hello, we’re GrubHub, your new premium food delivery service. We know you’re always busy. No time for
-                cooking. So, let us take care of that, we’re really good at it, we promise!
-            </p>
-        </div>
+      <div class="row">
+        <h2>Get food fast &mdash; not fast food</h2>
+        <p class="long-copy">
+          Hello, we’re GrubHub, your new premium food delivery service. We know
+          you’re always busy. No time for cooking. So, let us take care of that,
+          we’re really good at it, we promise!
+        </p>
+      </div>
 
-        <div class="row js--wp-1">
-            <div class="col span-1-of-4 box">
-                <ion-icon name="calendar-outline" class="icon-big"></ion-icon>
-                <h3>Up to 365 days/year</h3>
-                <p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage.
-                    You can also choose to order more flexibly if that's your style.</p>
-            </div>
-            <div class="col span-1-of-4 box">
-                <ion-icon name="stopwatch-outline" class="icon-big"></ion-icon>
-                <h3>Ready in 20 minutes</h3>
-                <p>You're only twenty minutes away from your delicious and super healthy meals delivered right to your
-                    home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
-            </div>
-            <div class="col span-1-of-4 box">
-                <ion-icon name="leaf-outline" class="icon-big"></ion-icon>
-                <h3>100% organic</h3>
-                <p>All our vegetables are fresh, organic and local. Animals are raised without added hormones or
-                    antibiotics. Good for your health, the environment, and it also tastes better!</p>
-            </div>
-            <div class="col span-1-of-4 box">
-                <ion-icon name="cart-outline" class="icon-big"></ion-icon>
-                <h3>Order anything</h3>
-                <p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose
-                    from our menu containing over 100 delicious meals. It's up to you!</p>
-            </div>
-
+      <div class="row js--wp-1">
+        <div class="col span-1-of-4 box">
+          <ion-icon name="calendar-outline" class="icon-big"></ion-icon>
+          <h3>Up to 365 days/year</h3>
+          <p>
+            Never cook again! We really mean that. Our subscription plans
+            include up to 365 days/year coverage. You can also choose to order
+            more flexibly if that's your style.
+          </p>
         </div>
+        <div class="col span-1-of-4 box">
+          <ion-icon name="stopwatch-outline" class="icon-big"></ion-icon>
+          <h3>Ready in 20 minutes</h3>
+          <p>
+            You're only twenty minutes away from your delicious and super
+            healthy meals delivered right to your home. We work with the best
+            chefs in each town to ensure that you're 100% happy.
+          </p>
+        </div>
+        <div class="col span-1-of-4 box">
+          <ion-icon name="leaf-outline" class="icon-big"></ion-icon>
+          <h3>100% organic</h3>
+          <p>
+            All our vegetables are fresh, organic and local. Animals are raised
+            without added hormones or antibiotics. Good for your health, the
+            environment, and it also tastes better!
+          </p>
+        </div>
+        <div class="col span-1-of-4 box">
+          <ion-icon name="cart-outline" class="icon-big"></ion-icon>
+          <h3>Order anything</h3>
+          <p>
+            We don't limit your creativity, which means you can order whatever
+            you feel like. You can also choose from our menu containing over 100
+            delicious meals. It's up to you!
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- MEALS SECTION -->
     <section class="section-meals js--section-meals">
-        <ul class="meals-showcase clearfix">
-            <li>
-                <figure class="meal-photo">
-                    <img src="images/food1.jpg" alt="Mixed Salad">
-                </figure>
-            </li>
-            <li>
-                <figure class="meal-photo">
-                    <img src="images/food8.jpg" alt="Healthy Toast">
-                </figure>
-            </li>
-            <li>
-                <figure class="meal-photo">
-                    <img src="images/food3.jpg" alt="Avocado and Sweet Potato Salad">
-                </figure>
-            </li>
-            <li>
-                <figure class="meal-photo">
-                    <img src="images/food4.jpg" alt="Acai Bowl">
-                </figure>
-            </li>
-        </ul>
-        <ul class="meals-showcase clearfix">
-            <li>
-                <figure class="meal-photo">
-                    <img src="images/food5.jpg" alt="Salmon Salad">
-                </figure>
-            </li>
-            <li>
-                <figure class="meal-photo">
-                    <img src="images/food6.jpg" alt="Chicken Salad">
-                </figure>
-            </li>
-            <li>
-                <figure class="meal-photo">
-                    <img src="images/food7.jpg" alt="Beef Salad">
-                </figure>
-            </li>
-            <li>
-                <figure class="meal-photo">
-                    <img src="images/food2.jpg" alt="Shrimp Salad">
-                </figure>
-            </li>
-        </ul>
+      <ul class="meals-showcase clearfix">
+        <li>
+          <figure class="meal-photo">
+            <img src="images/food1.jpg" alt="Mixed Salad" />
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img src="images/food8.jpg" alt="Healthy Toast" />
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img src="images/food3.jpg" alt="Avocado and Sweet Potato Salad" />
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img src="images/food4.jpg" alt="Acai Bowl" />
+          </figure>
+        </li>
+      </ul>
+      <ul class="meals-showcase clearfix">
+        <li>
+          <figure class="meal-photo">
+            <img src="images/food5.jpg" alt="Salmon Salad" />
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img src="images/food6.jpg" alt="Chicken Salad" />
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img src="images/food7.jpg" alt="Beef Salad" />
+          </figure>
+        </li>
+        <li>
+          <figure class="meal-photo">
+            <img src="images/food2.jpg" alt="Shrimp Salad" />
+          </figure>
+        </li>
+      </ul>
     </section>
 
     <!-- HOW IT WORKS SECTION -->
     <section class="section-steps" id="works">
-        <div class="row">
-            <h2>How It Works &mdash; Simple as 1,&nbsp;2,&nbsp;3</h2>
+      <div class="row">
+        <h2>How It Works &mdash; Simple as 1,&nbsp;2,&nbsp;3</h2>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-2 steps-box">
+          <img
+            src="images/grubhub-iphone.png"
+            alt="mockup image of logo on iphone"
+            class="app-screen js--wp-2"
+          />
         </div>
-        <div class="row">
-            <div class="col span-1-of-2 steps-box">
-                <img src="images/grubhub-iphone.png" alt="mockup image of logo on iphone" class="app-screen js--wp-2">
-            </div>
-            <div class="col span-1-of-2 steps-box">
-                <div class="works-step">
-                    <div>1</div>
-                    <p>Choose the subscription plan that best suits your needs and sign up today.</p>
-                </div>
-                <div class="works-step">
-                    <div>2</div>
-                    <p>Order your delicious meal using our mobile app or website.</p>
-                </div>
-                <div class="works-step">
-                    <div>3</div>
-                    <p>Enjoy your meal after less than 20 minutes. Thanks for using GrubHub!</p>
-                </div>
+        <div class="col span-1-of-2 steps-box">
+          <div class="works-step">
+            <div>1</div>
+            <p>
+              Choose the subscription plan that best suits your needs and sign
+              up today.
+            </p>
+          </div>
+          <div class="works-step">
+            <div>2</div>
+            <p>Order your delicious meal using our mobile app or website.</p>
+          </div>
+          <div class="works-step">
+            <div>3</div>
+            <p>
+              Enjoy your meal after less than 20 minutes. Thanks for using
+              GrubHub!
+            </p>
+          </div>
 
-                <a href="#" class="btn-app"><img src="images/download-app.svg" alt="App Store Button"></a>
-                <a href="#" class="btn-app"><img src="images/download-app-android.png" alt="Play Store Button"></a>
-            </div>
+          <a href="#" class="btn-app"
+            ><img src="images/download-app.svg" alt="App Store Button"
+          /></a>
+          <a href="#" class="btn-app"
+            ><img src="images/download-app-android.png" alt="Play Store Button"
+          /></a>
         </div>
+      </div>
     </section>
 
     <!-- CITIES SECTION -->
     <section class="section-cities" id="cities">
-        <div class="row">
-            <h2>We're currently in these cities</h2>
+      <div class="row">
+        <h2>We're currently in these cities</h2>
+      </div>
+      <div class="row js--wp-3">
+        <div class="col span-1-of-4 box">
+          <img src="images/vancouver.jpg" alt="Vancouver" />
+          <h3>Vancouver</h3>
+          <div class="city-feature">
+            <ion-icon
+              name="person-circle-outline"
+              class="icon-small"
+            ></ion-icon>
+            6000+ happy eaters
+          </div>
+          <div class="city-feature">
+            <ion-icon name="star-outline" class="icon-small"></ion-icon>
+            100+ top chefs
+          </div>
+          <div class="city-feature">
+            <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
+            <a href="#">@grubhub_van</a>
+          </div>
         </div>
-        <div class="row js--wp-3">
-            <div class="col span-1-of-4 box">
-                <img src="images/vancouver.jpg" alt="Vancouver">
-                <h3>Vancouver</h3>
-                <div class="city-feature">
-                    <ion-icon name="person-circle-outline" class="icon-small"></ion-icon>
-                    6000+ happy eaters
-                </div>
-                <div class="city-feature">
-                    <ion-icon name="star-outline" class="icon-small"></ion-icon>
-                    100+ top chefs
-                </div>
-                <div class="city-feature">
-                    <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
-                    <a href="#">@grubhub_van</a>
-                </div>
-            </div>
 
-            <div class="col span-1-of-4 box">
-                <img src="images/calgary.jpg" alt="Calgary">
-                <h3>Calgary</h3>
-                <div class="city-feature">
-                    <ion-icon name="person-circle-outline" class="icon-small"></ion-icon>
-                    3400+ happy eaters
-                </div>
-                <div class="city-feature">
-                    <ion-icon name="star-outline" class="icon-small"></ion-icon>
-                    50+ top chefs
-                </div>
-                <div class="city-feature">
-                    <ion-icon name="logo-facebook" class="icon-small"></ion-icon>
-                    <a href="#">@grubhub_cal</a>
-                </div>
-            </div>
-            <div class="col span-1-of-4 box">
-                <img src="images/edmonton.jpg" alt="Edmonton">
-                <h3>Edmonton</h3>
-                <div class="city-feature">
-                    <ion-icon name="person-circle-outline" class="icon-small"></ion-icon>
-                    2500+ happy eaters
-                </div>
-                <div class="city-feature">
-                    <ion-icon name="star-outline" class="icon-small"></ion-icon>
-                    60+ top chefs
-                </div>
-                <div class="city-feature">
-                    <ion-icon name="logo-youtube" class="icon-small"></ion-icon>
-                    <a href="#">@grubhub_ed</a>
-                </div>
-            </div>
-            <div class="col span-1-of-4 box">
-                <img src="images/toronto.jpg" alt="Toronto">
-                <h3>Toronto</h3>
-                <div class="city-feature">
-                    <ion-icon name="person-circle-outline" class="icon-small"></ion-icon>
-                    4000+ happy eaters
-                </div>
-                <div class="city-feature">
-                    <ion-icon name="star-outline" class="icon-small"></ion-icon>
-                    80+ top chefs
-                </div>
-                <div class="city-feature">
-                    <ion-icon name="logo-instagram" class="icon-small"></ion-icon>
-                    <a href="#">@grubhub_tor</a>
-                </div>
-            </div>
+        <div class="col span-1-of-4 box">
+          <img src="images/calgary.jpg" alt="Calgary" />
+          <h3>Calgary</h3>
+          <div class="city-feature">
+            <ion-icon
+              name="person-circle-outline"
+              class="icon-small"
+            ></ion-icon>
+            3400+ happy eaters
+          </div>
+          <div class="city-feature">
+            <ion-icon name="star-outline" class="icon-small"></ion-icon>
+            50+ top chefs
+          </div>
+          <div class="city-feature">
+            <ion-icon name="logo-facebook" class="icon-small"></ion-icon>
+            <a href="#">@grubhub_cal</a>
+          </div>
         </div>
+        <div class="col span-1-of-4 box">
+          <img src="images/edmonton.jpg" alt="Edmonton" />
+          <h3>Edmonton</h3>
+          <div class="city-feature">
+            <ion-icon
+              name="person-circle-outline"
+              class="icon-small"
+            ></ion-icon>
+            2500+ happy eaters
+          </div>
+          <div class="city-feature">
+            <ion-icon name="star-outline" class="icon-small"></ion-icon>
+            60+ top chefs
+          </div>
+          <div class="city-feature">
+            <ion-icon name="logo-youtube" class="icon-small"></ion-icon>
+            <a href="#">@grubhub_ed</a>
+          </div>
+        </div>
+        <div class="col span-1-of-4 box">
+          <img src="images/toronto.jpg" alt="Toronto" />
+          <h3>Toronto</h3>
+          <div class="city-feature">
+            <ion-icon
+              name="person-circle-outline"
+              class="icon-small"
+            ></ion-icon>
+            4000+ happy eaters
+          </div>
+          <div class="city-feature">
+            <ion-icon name="star-outline" class="icon-small"></ion-icon>
+            80+ top chefs
+          </div>
+          <div class="city-feature">
+            <ion-icon name="logo-instagram" class="icon-small"></ion-icon>
+            <a href="#">@grubhub_tor</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- START EATING HEALTHY SECTION -->
     <section class="section-plans js--section-plans" id="plans">
-        <div class="row">
-            <h2>Start Eating Healthy Today</h2>
+      <div class="row">
+        <h2>Start Eating Healthy Today</h2>
+      </div>
+      <div class="row js--wp-4">
+        <div class="col span-1-of-3">
+          <div class="plan-box">
+            <div>
+              <h3>Premium</h3>
+              <p class="plan-price">$399 <span> / month</span></p>
+              <p class="plan-price-meal">That's only $13.39 per meal</p>
+            </div>
+            <div class="plan-details">
+              <ul>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>1 meal every day
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>Order 24/7
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>Access to newest
+                  creations
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>Free delivery
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="btn btn-full">Sign up</a>
+            </div>
+          </div>
         </div>
-        <div class="row js--wp-4">
-            <div class="col span-1-of-3">
-                <div class="plan-box">
-                    <div>
-                        <h3>Premium</h3>
-                        <p class="plan-price">$399 <span> / month</span></p>
-                        <p class="plan-price-meal">That's only $13.39 per meal</p>
-                    </div>
-                    <div class="plan-details">
-                        <ul>
-                            <li>
-                                <ion-icon name="checkmark-outline"></ion-icon>1 meal every day
-                            </li>
-                            <li>
-                                <ion-icon name="checkmark-outline"></ion-icon>Order 24/7
-                            </li>
-                            <li>
-                                <ion-icon name="checkmark-outline"></ion-icon>Access to newest creations
-                            </li>
-                            <li>
-                                <ion-icon name="checkmark-outline"></ion-icon>Free delivery
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <a href="#" class="btn btn-full">Sign up</a>
-
-                    </div>
-                </div>
+        <div class="col span-1-of-3">
+          <div class="plan-box">
+            <div>
+              <h3>Pro</h3>
+              <p class="plan-price">$149 <span> / month</span></p>
+              <p class="plan-price-meal">That's only $14.90 per meal</p>
             </div>
-            <div class="col span-1-of-3">
-                <div class="plan-box">
-                    <div>
-                        <h3>Pro</h3>
-                        <p class="plan-price">$149 <span> / month</span></p>
-                        <p class="plan-price-meal">That's only $14.90 per meal</p>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>
-                                <ion-icon name="checkmark-outline"></ion-icon>1 meal 10 days/month
-                            </li>
-                            <li>
-                                <ion-icon name="checkmark-outline"></ion-icon>Order 24/7
-                            </li>
-                            <li>
-                                <ion-icon name="checkmark-outline"></ion-icon>Access to newest creations
-                            </li>
-                            <li>
-                                <ion-icon name="checkmark-outline"></ion-icon>Free delivery
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <a href="#" class="btn btn-full">Sign up</a>
-
-                    </div>
-                </div>
+            <div>
+              <ul>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>1 meal 10
+                  days/month
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>Order 24/7
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>Access to newest
+                  creations
+                </li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>Free delivery
+                </li>
+              </ul>
             </div>
-            <div class="col span-1-of-3">
-                <div class="plan-box">
-                    <div>
-                        <h3>Starter</h3>
-                        <p class="plan-price">$19 <span> / meal</span></p>
-
-                    </div>
-                    <div>
-                        <ul>
-                            <li>
-                                <ion-icon name="checkmark-outline"></ion-icon>1 meal
-                            </li>
-                            <li>
-                                <ion-icon name="checkmark-outline"></ion-icon>Order from 8am to 12pm
-                            </li>
-                            <li>
-                                <ion-icon name="close-outline"></ion-icon>
-                            <li>
-                                <ion-icon name="checkmark-outline"></ion-icon>Free delivery
-                                <p class="plan-price-meal">&nbsp;</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <a href="#" class="btn btn-full">Sign up</a>
-
-                    </div>
-                </div>
+            <div>
+              <a href="#" class="btn btn-full">Sign up</a>
             </div>
+          </div>
         </div>
+        <div class="col span-1-of-3">
+          <div class="plan-box">
+            <div>
+              <h3>Starter</h3>
+              <p class="plan-price">$19 <span> / meal</span></p>
+            </div>
+            <div>
+              <ul>
+                <li><ion-icon name="checkmark-outline"></ion-icon>1 meal</li>
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>Order from 8am
+                  to 12pm
+                </li>
+                <li>
+                  <ion-icon name="close-outline"></ion-icon>
+                </li>
+
+                <li>
+                  <ion-icon name="checkmark-outline"></ion-icon>Free delivery
+                  <p class="plan-price-meal">&nbsp;</p>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="btn btn-full">Sign up</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="section-form">
-        <div class="row">
-            <h2>We're Happy To Hear From You</h2>
-        </div>
-        <div class="row">
-            <form method="post" action="#" class="contact-form">
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="name">Name:</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="text" name="name" id="name" placeholder="Your name..." required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="email">Email:</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="email" name="email" id="email" placeholder="Your email..." required>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label>Drop us a <br> message:</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <textarea name="message" placeholder="Your message..."></textarea>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label>&nbsp;</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="submit" value="Send">
-                    </div>
-                </div>
-            </form>
-        </div>
+      <div class="row">
+        <h2>We're Happy To Hear From You</h2>
+      </div>
+      <div class="row">
+        <form method="post" action="#" class="contact-form">
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label for="name">Name:</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your name..."
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label for="email">Email:</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your email..."
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label
+                >Drop us a <br />
+                message:</label
+              >
+            </div>
+            <div class="col span-2-of-3">
+              <textarea name="message" placeholder="Your message..."></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>&nbsp;</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="submit" value="Send" />
+            </div>
+          </div>
+        </form>
+      </div>
     </section>
 
     <footer>
-        <div class="row">
-            <div class="col span-1-of-2">
-                <ul class="footer-nav">
-                    <li>
-                        <a href="#">About us</a>
-                        <a href="#">Blog</a>
-                        <a href="#">iOS App</a>
-                        <a href="#">Android App</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col span-1-of-2">
-                <ul class="social-links">
-                    <li><a href="#">
-                            <ion-icon name="logo-twitter" class="twit"></ion-icon>
-                        </a></li>
-                    <li><a href="#">
-                            <ion-icon name="logo-facebook" class="face"></ion-icon>
-                        </a></li>
-                    <li><a href="#">
-                            <ion-icon name="logo-youtube" class="you"></ion-icon>
-                        </a></li>
-                    <li><a href="#">
-                            <ion-icon name="logo-instagram" class="ins"></ion-icon>
-                        </a></li>
-                </ul>
-            </div>
+      <div class="row">
+        <div class="col span-1-of-2">
+          <ul class="footer-nav">
+            <li>
+              <a href="#">About us</a>
+              <a href="#">Blog</a>
+              <a href="#">iOS App</a>
+              <a href="#">Android App</a>
+            </li>
+          </ul>
         </div>
-        <div class="row">
-            <p>
-                Copyright &copy;grubhub 2020-present- All Rights Reserved
-            </p>
+        <div class="col span-1-of-2">
+          <ul class="social-links">
+            <li>
+              <a href="#">
+                <ion-icon name="logo-twitter" class="twit"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <ion-icon name="logo-facebook" class="face"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <ion-icon name="logo-youtube" class="you"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <ion-icon name="logo-instagram" class="ins"></ion-icon>
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
+      <div class="row">
+        <p>
+          Copyright &copy;grubhub 2020-present- All Rights Reserved
+        </p>
+      </div>
     </footer>
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
@@ -423,7 +489,5 @@
     <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="js/script.js"></script>
-
-</body>
-
+  </body>
 </html>

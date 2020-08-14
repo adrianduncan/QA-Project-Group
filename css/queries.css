@@ -341,7 +341,8 @@
         font-size: 80%;
     }
 
-    .main-nav li a:link, .main-nav li a:visited {
+    .main-nav li a:link,
+    .main-nav li a:visited {
         background-color: #84a813;
         padding: 10px;
         border: 1px solid #fff;
