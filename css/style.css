@@ -84,6 +84,7 @@ header {
     float: right;
     position: absolute;
     right: 40px;
+    margin-top: 25px;
 }
 
 .main-nav li a:link,
